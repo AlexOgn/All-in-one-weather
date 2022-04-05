@@ -3,6 +3,7 @@
 ![Arduino](https://img.shields.io/badge/Arduino-blue?style=for-the-badge&logo=arduino&labelColor=ffffff)
 ![ESP](https://img.shields.io/badge/ESP8266-blue?style=for-the-badge&logo=espressif&labelColor=ffffff)
 ![Stars](https://img.shields.io/github/stars/AlexOgn/all-in-one-weather?style=for-the-badge&labelColor=white&color=yellow)
+
 # All-in-one-weather
 ## This is the official repository of the All-in-one-weather device developed for TUESFest by Alex Ognyanov currently 10th grade.
 ### It collects important data from the environment via sensors and sends it to a remote server which then makes it possible to easily view the data represented by graphs by everyone and analyse it. 
