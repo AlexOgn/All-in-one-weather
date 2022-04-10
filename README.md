@@ -30,7 +30,7 @@ All-in-one-weather е иновативна система, която включ
 ### Инструкции за стартиране на проекта
 1. Отидете в директорията, където изтеглихте кода
 2. Свържете Ардуиното и сензорите както е показано на схемата:  
-![Схема](https://user-images.githubusercontent.com/61375132/162591176-3075da70-9413-40f1-9aad-b669278872d6.jpg)
+![Схема](https://user-images.githubusercontent.com/61375132/162615751-d0fd1730-402f-4740-ac65-76fab196bbcb.jpg)
 3. Отворете `main.ino` файлът с Arduino IDE
 4. Кликнете на копчето `Upload` след като сте избрали правилното Ардуино и порт (обяснение може да намерите [тук](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE))
 
