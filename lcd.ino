@@ -28,7 +28,6 @@ void PressureAndTemp() {
   lcd.setCursor(0, 0);
   lcd.print("Temp: ");
   int temperature = GetTemperature();
-  Serial.println(temperature);
   
   lcd.print(temperature);
   lcd.write(byte(0));
@@ -119,8 +118,6 @@ void lcd_loop(){
     lcd.clear();
     Humidity();
   }
-
   
-
   delay(1000);
 }

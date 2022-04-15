@@ -12,7 +12,7 @@ void bmp180_setup() {
     Serial.println("BMP180 init fail (disconnected?)\n\n");
     while (1);
   }
-  
+
 }
 double GetAltitude() {
   double a, P;
@@ -25,32 +25,20 @@ double GetAltitude() {
 double readPressure() {
   char status;
   double T, P, p0, a;
-  status = pressure.startTemperature();
+  status = pressure.startPressure(3);
   if (status != 0)
   {
     delay(status);
-    status = pressure.getTemperature(T);
+    status = pressure.getPressure(P, T);
     if (status != 0)
     {
-      status = pressure.startPressure(3);
-      if (status != 0)
-      {
-        delay(status);
-        status = pressure.getPressure(P, T);
-        if (status != 0)
-        {
-          return (P);
-        }
-        else Serial.println("error retrieving pressure measurement\n");
-      }
-      else Serial.println("error starting pressure measurement\n");
+      return (P);
     }
-    else Serial.println("error retrieving temperature measurement\n");
   }
-  else Serial.println("error starting temperature measurement\n");
+}
 }
 
-int GetTemperature(){
+int GetTemperature() {
   char status;
   double T;
   int a;

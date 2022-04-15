@@ -19,7 +19,6 @@ int post_request(const char* server_url, String route, String data) {
   
   if(server_conn_status) {
     Serial.println("Connected successfully");
-    //POST request form
     server_conn.print("POST " + route + " HTTP/1.0\r\n");
     server_conn.print("Host: " + String(server_url) + "\r\n");
     server_conn.print("Connection: close\r\n");
@@ -57,6 +56,6 @@ void send_data() {
   if(post_request("all-in-one-weather.herokuapp.com", "/post_data", data) == 0){
     Serial.println("Successfully POSTed data");
   }else{
-    Serial.println("Ei sq si iba maikata");
+    Serial.println("Error sending POST request");
   }
 }
