@@ -36,7 +36,6 @@ double readPressure() {
     }
   }
 }
-}
 
 int GetTemperature() {
   char status;
