@@ -3,7 +3,7 @@
 ![Arduino](https://img.shields.io/badge/Arduino-blue?style=for-the-badge&logo=arduino&labelColor=ffffff)
 ![ESP](https://img.shields.io/badge/ESP8266-blue?style=for-the-badge&logo=espressif&labelColor=ffffff)
 ![Stars](https://img.shields.io/github/stars/AlexOgn/all-in-one-weather?style=for-the-badge&labelColor=white&color=yellow)
-![License](https://img.shields.io/badge/License-GPLv3-%234ea94b.svg?style=for-the-badge&color=4EA94B)
+![License](https://img.shields.io/badge/License-GPLv3-%234ea94b.svg?style=for-the-badge&color=4EA94B&labelColor=ffffff)
 
 # **All-in-one-weather**
 <img src="https://user-images.githubusercontent.com/61375132/162498691-0b94da9b-4b73-4ad8-80f8-044e5a4a68f6.png" alt="All-in-one-weather" width="600"/>
